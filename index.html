@@ -1,0 +1,529 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>trung tâm điện thoai chính hãng,nhiều mẫu mã,giá cả hợp lý,...</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<script type="text/javascript" src="js/chayhinh.js"></script>
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<!-----http://code.jquery.com/jquery-1.8.3.min.js----->
+
+
+<!--<style type="text/css">
+#goTop {
+bottom: 100px;
+cursor: pointer;
+display: none;
+height: 35px;
+position: fixed;
+right: 50px;
+width: 44px;
+z-index: 1000;
+}
+</style>-->
+
+<script type="text/javascript">
+$(document).ready(function(e) 
+	{
+		var stt = 0;
+		staImg=$("img.chayhinh:first").attr("stt");
+		endImg=$("img.chayhinh:last").attr("stt");
+		$("img.chayhinh").each(function()
+		{
+		 if($(this).is(':visible'))
+		 stt = $(this).attr("stt");
+		});
+		
+		$("#next").click(function()
+		{
+			if(stt==endImg)
+			{
+				stt=-1;
+			}
+			next = ++stt;
+			$("img.chayhinh").hide();
+			$("img.chayhinh").eq(next).show();
+		});
+		
+		$("#prew").click(function()
+		{
+			if(stt==0)
+			{
+				stt=endImg;
+				prew=stt++;
+			}
+			prew = --stt;
+			$("img.chayhinh").hide();
+			$("img.chayhinh").eq(prew).show();
+		});
+		
+		setInterval(function()
+		{
+			$("#next").click();
+		},2100);
+	
+	});
+	
+</script>
+
+<script type="text/javascript">
+$(function(){
+$(window).scroll(function () {
+if ($(this).scrollTop() > 100) $('#goTop').fadeIn();
+else $('#goTop').fadeOut();
+});
+$('#goTop').click(function () {
+$('body,html').animate({scrollTop: 0}, 'slow');
+});
+});
+</script>
+
+
+<script type="text/javascript">
+
+myVar=setInterval(function(){Clock()},1000);
+function Clock() {
+a=new Date();
+w=Array("Chủ Nhật","Thứ hai","Thứ ba","Thứ tư","Thứ năm","Thứ sáu","Thứ bảy");//tạo mảng các ngày trong tuần
+a=w[a.getDay()],
+w=new Date,
+d=w.getDate();
+m=w.getMonth()+1;
+y=w.getFullYear();
+h=w.getHours();
+mi=w.getMinutes();
+se=w.getSeconds();
+	//Nếu d,m,h,mi,se >10 thì thêm số 0 vào trước chuỗi
+if(10>d){d="0"+d}
+if(10>m){m="0"+m}
+if(10>h){h="0"+h}
+if(10>mi){mi="0"+mi}
+if(10>se){se="0"+se}
+document.getElementById("clockDiv").innerHTML=" "+h+":"+mi+":"+se+" <br> "+a+", ngày "+d+" tháng "+m+" năm "+y+" "; //thời gian
+}
+
+</script>
+
+
+</head>
+
+<body bgcolor="#CCCCCC">
+
+<div id="goTop">
+<img src="hinhanh/img_447912.png" width="50" height="50" />
+</div>
+
+<div class="main">
+      <div class="search">
+            </br>
+        <div class="khung_d">
+          <input name="search" type="text" multiple="multiple" value="" size="20" height="60" />
+        </div>
+            <div class="timkiem_d"><font size="4">Tìm</font></div>
+      </div>
+            </br>
+      <div class="ten"><font size=7 color="#FF0000">VuongDiQuyen.com</font></div></div>
+</div>
+<div class="top" >
+         <a href="#samsung"><div class="samsung_d">Samsung</div></a>
+         <a href="#apple"><div class="apple_d">Apple</div></a>
+         <a href="#lg"><div class="lg_d">LG</div></a>
+         <a href="#opple"><div class="opple_d">Oppo</div></a>
+         <a href="#sony"><div class="sony_d">Sony</div></a>
+         <a href="#phukien"><div class="phukien_d">Phụ Kiện</div></a>
+</div>
+</br>
+        <div id="hot">
+                <a href="iphoneX.html"><img class="chayhinh" src="hinhanh/1.png" stt="0" /></a>
+              	<a href="j7(pro).html"><img class="chayhinh" src="hinhanh/2.png" stt="1" style="display:none"/></a>
+                <a href="untitled.html"><img class="chayhinh" src="hinhanh/3.png" stt="2" style="display:none"/></a>
+                <a href="index_note8.html"><img class="chayhinh" src="hinhanh/4.jpg" stt="3" style="display:none" /></a>
+                <a href="nokia5.html"><img class="chayhinh" src="hinhanh/5.jpg" stt="4" style="display:none" /></a>
+                <a href="#" id="prew"><img src="hinhanh/nut pre.png"  width="80" height="80"/></a>
+                <a href="#" id="next"><img src="hinhanh/nut next.png" width="80" height="80" /></a>
+        </div>
+        
+<br />
+
+<div class="khung_body">
+
+		<div class="trungtam_trai">
+       				<div class="khung_khuyenmai">
+                    <br />
+                    <div class="sanpham_km"><h2 class="khuyenmai_vb">Sản phẩm khuyến mãi </h2>
+                    <img class="khuyenmai_vb" src="hinhanh/tour-du-lich-khuyen-mai-handetour.gif" width="35" height="40" />
+                    
+                   </div>
+                    
+                                  <div class="khungx">
+                                    <div class="chuthich_iphone">Iphone X</div>
+                                                <br />
+                                                <div class="khuyenmai1"><a href="iphoneX.html"><img src="hinhanh/iphnex.png" width="80" height="120" /></a></div>
+                                  </div>
+                                   <div class="khungnot8">
+                                        
+                                         <div class="chuthich_note8">SamSung Note 8 </div>
+                                                <br />
+                                                <div class="khuyenmai2"><a href="index_note8.html"><img src="hinhanh/samsung-galaxy-note-8-sm-n950.jpg" width="80" height="120" /></a></div>
+                                   </div>
+                                   
+                                   <div class="khungf5">
+                                         <div class="chuthich_f5">Opple F5 </div>
+                                                <br />
+                                                <div class="khuyenmai3"><a href="opplef5.html"><img src="hinhanh/oppo-f5-6gb-a-2-400x460.png" width="80" height="120" /></a></div>
+                                   </div>
+                                   
+                                   <div class="khungc5">
+                                         <div class="chuthich_c5">Sony c5 utra </div>
+                                                <br />
+                                                <div class="khuyenmai4"><a href="sonyc5.html"><img src="hinhanh/c5.jpg" width="90" height="120" /></a></div>
+                                   </div>
+                    
+                    </div>
+                    <div class="khung_banchay">
+                    <br />
+                    <div class="sanpham_bc"><h2 class="khuyenmai_vb">Sản phẩm bán chạy</h2>
+                    		<img class="khuyenmai_vb" src="hinhanh/4017_23Dec2013100415_1.gif" width="40" height="40" />
+                    	</div>
+                    		
+                            <div class="khung_nokia">
+                                    <div class="chuthich_nokia">NOKIA 5</div>
+                                                <br />
+                                                <div class="banchay1"><a href="nokia5.html"><img src="hinhanh/nokia-5-2-400x460.png" width="80" height="120" /></a></div>
+                            </div>
+                            
+                            
+                            <div class="khungx">
+                                    <div class="chuthich_iphone">Iphone X</div>
+                                                <br />
+                                                <div class="khuyenmai1"><a href="iphoneX.html"><img src="hinhanh/iphnex.png" width="80" height="120" /></a></div>
+                                  </div>
+                            
+                            <div class="khung_vivo">
+                                    <div class="chuthich_vivo">VIVO V7</div>
+                                                <br />
+                                                <div class="banchay2"><a href="vivo.html"><img src="hinhanh/vivo-v7-hh-600x600.jpg" width="80" height="120" /></a></div>
+                            </div>
+                            
+                            <div class="khung_a8">
+                                    <div class="chuthich_a8">SamSung A8(2018)</div>
+                                                <br />
+                                                <div class="banchay3"><img src="hinhanh/01_138_46.jpg" width="90" height="120" /></div>
+                            </div>
+                           
+                    
+                    </div> 
+                    <div class="khung_giatot">
+                    <br />
+                    <div class="sanpham_gt"><h2 class="khuyenmai_vb">Sản phẩm giá tốt</h2>
+                    			<img class="khuyenmai_vb" src="hinhanh/200.gif" width="40" height="40" />
+                    </div>
+                    
+                    		<div class="khung_j2">
+                                    <div class="chuthich_j2">SamSung J2(2018)</div>
+                                                <br />
+                                                <div class="giatot"><a href="j7(pro).html"><img src="hinhanh/samsung-galaxy-j2-prime-hh-600x600.jpg" width="80" height="120" /></a></div>
+                            </div>
+                            
+                            <div class="khung_a71">
+                                    <div class="chuthich_a71">Oppo A71</div>
+                                                <br />
+                                                <div class="giatot1"><a href="opplea71.html"><img src="hinhanh/a71-vang.jpg" width="90" height="130" /></a></div>
+                            </div>
+                            
+                            
+                             <div class="khung_a5">
+                                    <div class="chuthich_a5">Samsung A5(2016)</div>
+                                                <br />
+                                                <div class="giatot2"><a href="a5_2017.html"><img src="hinhanh/a5 2016.jpg" width="90" height="115" /></a></div>
+                            </div>
+                            
+                            
+                            
+                            <div class="khung_i7">
+                                    <div class="chuthich_i7">Iphone 7</div>
+                                                <br />
+                                                <div class="giatot3"><a href="iphone7 - Copy.html"><img src="hinhanh/iPhone7-RoseGold5550.jpg" width="80" height="120" /></a></div>
+                            </div>
+                            
+                            
+                    
+                    </div>   
+                    
+                    
+                    <div class="khung_ramat">
+                    <br />
+                    <div class="sanpham_ramat"><h2 class="khuyenmai_vb">Sản phẩm sắp ra mắt</h2>
+                    		<img class="khuyenmai_vb" src="hinhanh/icon_new.png" width="40" height="40" />
+                    </div>
+                    
+                                 <div class="khung_s9">
+                                    <div class="chuthich_s9">Samsung galaxy S9</div>
+                                                <br />
+                                                <div class="giatot"><img src="hinhanh/45-Q118-fg-StarStar2-PreReg-Samsung-S9-Lilac-White-Logo.mobile.png" width="90" height="120" /></div>
+                            </div>
+                    
+                    </div>
+                    			
+                
+                
+                	
+        </div>
+        
+       
+        
+        <!-------trung tâm phai--------------------->
+        <div class="trungtam_phai">
+        			
+        
+        		<div class="thoigian">
+                
+                	<br />
+                
+                	<center><font size="4"><div id="clockDiv"></div></font></center>
+                </div>
+        
+               <div class="dangnhap">
+               <br />
+                		<div class="thongtin_kh"><h2 class="khuyenmai_vb">Thành viên</h2>
+                        		<img class="khuyenmai_vb" src="hinhanh/lock-circle-green-512.png" width="30" height="30" />
+                        </div>
+                     
+                        <form id=""><div class="thanhvien"><center>
+                      
+                        		Tên Đăng nhập:<input type="text" size="15" name="ten" /><br /><br />
+                                <pre style="font-family:'Times New Roman', Times, serif">Mật Khẩu:        <input type="password" size="15" /></pre><br />
+                                <br />
+                                <input type="button" value="Đăng nhập" onclick="if(confirm('day la ten cua ban'));
+                                chao.innerText='chao ban '+ ten.value;" />
+                                <br />
+                                <br />
+                                <div id="chao">Chào Bạn  </div>
+                                <br />
+                                <a href="dangki.html"><div class="dangki_vb">Đăng kí</div></a>
+                              
+							<a href="quen.html"><div class="dangki_vb"> Bạn đã quên?</div></a>
+                        
+                        </center></div></form>
+                      
+                </div>
+                
+                
+                
+                <div class="tintuc">
+                
+                		<div class="tintuc_vb"><h2>Tin công nghệ</h2></div>
+                        	<center>
+                        			<marquee  class="tintuc_chay" direction="down" loop="-1" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="3">
+                                    <menu>
+                                    	<li><a href="https://tinhte.vn/threads/apple-dung-dau-danh-sach-cong-ty-duoc-nguong-mo-nhat-cua-tap-chi-fortune-11-nam-lien-tiep.2762155/">Apple đứng đầu danh sách công ty được ngưỡng mộ nhất của tạp chí Fortune 11 năm liên tiếp</a></li><br />
+                                        <li><a href="https://tinhte.vn/threads/synology-gioi-thieu-giai-phap-luu-tru-mang-chien-luoc-2018.2762110/">Synology giới thiệu giải pháp lưu trữ mạng chiến lược 2018</a></li><br />
+                                        <li><a href="https://tinhte.vn/threads/theo-ban-dien-thoai-gap-kieu-galaxy-x-se-huu-dung-ra-sao.2761963/">Theo bạn điện thoại gập kiểu Galaxy X sẽ hữu dụng ra sao?</a></li><br />
+                                        <li><a href="https://tinhte.vn/threads/cua-hang-tien-loi-khong-can-quay-tinh-tien-cua-amazon-mo-cua-cho-moi-nguoi-tu-hom-nay.2761962/">Cửa hàng tiện lợi không cần quầy tính tiền của Amazon mở cửa cho mọi người từ hôm nay</a></li><br />
+                                        <li><a href="https://tinhte.vn/threads/lg-x4-plus-chinh-thuc-may-tam-trung-chuan-quan-doi-dac-hi-fi.2761970/">LG X4 Plus chính thức: máy tầm trung chuẩn quân đội, DAC Hi-Fi</a></li><br />
+                                        <li><a href="https://tinhte.vn/threads/doanh-so-uoc-tinh-cua-iphone-x-trong-quy-1-lai-bi-ha-thap-chi-con-18-trieu-may.2761760/">Doanh số ước tính của iPhone X trong quý 1 lại bị hạ thấp, chỉ còn 18 triệu máy</a></li>
+                                    </menu>
+                                     </marquee>
+                       
+                			</center>
+                            <br />
+                            <a href="https://tinhte.vn/"><p><center>Thêm</center></p></a>
+                 </div>
+                
+                <div class="quangcao">
+                <br />
+                		<div class="quangcao_vb"><h2 class="khuyenmai_vb">Cam Kết</h2>
+                        		<img class="khuyenmai_vb" src="hinhanh/Csatisfaction_icon-1.png" width="30" height="30" />
+                        </div>
+                        <br />
+                         <br />
+                       
+                         <br />
+                         <div class="chinhsach">
+                         <menu>
+                         	<li>Chính sách 1 đổi 1(lỗi kị thuật)
+                            <li>Hàng chính hãng 100%
+                            <li>Giá cả phù hợp với thi trường
+                            <li>Luôn cập nhật thông tin mới nhất về các sản phẩm sắp ra mắt
+                          </menu>
+                          </div>
+   						
+                
+                  </div>
+                
+                 <div class="them">
+                        <div class="them_vb"><h2>Bằng Khen</h2></div>
+                        <br />
+                        <br />
+                        <div class="khen1"><img src="hinhanh/top-100-thuong-hieu-viet-uy-tin-2014.png" width="100" height="100"/></div>
+                        <div class="khen2"><img src="hinhanh/cup 3.png" width="100" height="100"/></div>
+                        <div class="khen3"><img src="hinhanh/thumb2.png" width="100" height="100"/></div>
+                        <div class="khen4"><img src="hinhanh/huy chuong.png" width="100" height="100"/></div>
+                        
+                                
+                  </div>
+                  
+                             
+       	</div>
+        
+<!----------------trung tam phai end------------------------->
+
+
+
+    <div class="trungtam">
+            <b><div class="duong_s"><font color="#000066" size="4"><a name="samsung" id="samsung"></a>SAMSUNG</font></div></b>
+            </br>
+            </br>
+            <div class="khung_s">
+                <div class="samsung_h1"><a href="untitled.html"><img src="hinhanh/samsung-galaxy-s8-4-400x460-400x460.png" width="80px" height="120"></a></div>
+                <div class="samsung_h2"><a href="index_note8.html"><img src="hinhanh/samsung-galaxy-note-8-sm-n950.jpg" width="80px" height="120" ></a></div>
+                <div class="samsung_h3"><a href="a5_2017.html"><img src="hinhanh/images.jpg" width="90px" height="120" ></a></div>
+                <div class="samsung_h4"><a href="j7(pro).html"><img src="hinhanh/j7pro.png" width="80px" height="120"></a></div>
+            </div></br> </br>
+            <div class="s8">
+           
+                 <a href="untitled.html"><div class="s8_1">Samsung galaxy s8</div></a>
+                 <a href="index_note8.html"><div class="s8_note">
+                   <p>Samsung galaxy s8 Node</p>
+                 </div></a>
+                 <a href="a5_2017.html"><div class="a5_2017">Samsung galaxy A5(2017)</div></a>
+                 <a href="j7(pro).html"><div class="j7_pro">Samsung galaxy J7 PRO</div></a>
+            </div>
+            </br>
+            <!---apple------>
+            <b><div class="apple"><font color="#000066" size="4"><a name="apple" id="apple"></a>APPLE</font></div></b>
+            </br>
+        <div class="khung_apple">
+                <div class="apple_h1"><a href="iphoneX.html"><img src="hinhanh/iphnex.png" width="80px" height="120"></a></div>
+                <div class="apple_h2"><a href="iphone8.html"><img src="hinhanh/iphone-8-64gb-hh-400x400.jpg" width="80px" height="120"></a></div>
+                <div class="apple_h2"><a href="iphone7 - Copy.html"><img src="hinhanh/iPhone7-RoseGold5550.jpg" width="80px" height="120"></a></div>
+                <div class="apple_h2"><a href="iphone6.html"><img src="hinhanh/iphone-6-3-400x460.png" width="80px" height="120"></a></div>
+        </div></br></br>
+          <div class="apple_vb">
+          <a href="iphoneX.html"><div class="apple_vb1">Iphone X</div></a>
+          <a href="iphone8.html"><div class="apple_vb2">Iphone 8</div></a>
+          <a href="iphone7 - Copy.html"><div class="apple_vb2">Iphone 7</div></a>
+           <a href="iphone6.html"><div class="apple_vb3">Iphone 6</div></a>
+          </div></br></br>
+          
+          <!-----LG---------->
+             <b><div class="lg"><font color="#000066" size="4"><a name="lg" id="lg"></a>LG</font></div></b>
+             </br>
+  
+        <div class="khung_lg">
+        			<div class="lg_h1"><a href="lgg6.html"><img src="hinhanh/lg-g6-2-400x460.png" width="80px" height="120"></a></div>
+                    <div class="lg_h2"><a href="lgg4.html"><img src="hinhanh/lgg4.jpeg" width="80px" height="120"></a></div>
+                     <div class="lg_h2"><a href="lgk10.html"><img src="hinhanh/lg-k10-5-300x300.jpg" width="80px" height="120"></a></div>
+        </div>
+        <div class="lg_vb">
+        			<a href="lgg6.html"><div class="lg_vb1">LG G6</div></a>
+                    <a href="lgg4.html"><div class="lg_vb2">LG G4</div></a>
+                     <a href="lgk10.html"><div class="lg_vb2">LG K10</div></a>
+                    
+        </div>
+             
+             
+             
+             
+              <!-----SONY------>
+              
+            <b><div class="sony"><font color="#000066" size="4"><a name="sony" id="sony"></a>SONY</font></div></b>
+            </br>
+        <div class="khung_sony">
+            <div class="sony_h1"><a href="sonyxz.html"><img src="hinhanh/sony-xperia-xz-premium-1-400x460.png" width="80px" height="120"></a></div>
+            <div class="sony_h2"><a href="sonyc5.html"><img src="hinhanh/c5.jpg" width="90px" height="120"></a></div>
+            <div class="sony_h3"><a href="sonyzx1.html"><img src="hinhanh/sony-xperia-xa1-plus.jpg" width="80px" height="120"></a></div>
+            <div class="sony_h4"><a href="sonyxa1.html"><img src="hinhanh/sony-xperia-xa1-ultra-pink-hh-400x400.jpg" width="80px" height="120"></a></div>
+            
+        </div></br>
+      <div class="sony_vb">
+                <a href="sonyxz.html"><div class="sony_vb1">Sony Xperia XZ</div></a>
+                <a href="sonyc5.html"><div class="sony_vb2">Sony c5 ultra</div></a>
+                <a href="sonyzx1.html"><div class="sony_vb3">Sony Xperia ZX1</div></a>
+                <a href="sonyxa1.html"><div class="sony_vb2">Sony Xperia XA1</div></a>
+                
+            </div></br></br>
+           
+            <b><div class="opple"><font color="#000066" size="4"><a name="opple" id="opple"></a>OPPO</font></div></b>
+                </br>
+            <div class="khung_opple">
+              <div class="opple_h1"><a href="opplef3.html"><img src="hinhanh/oppo-f3-plus-1-1-400x460.png" width="80px" height="120"></a></div>
+                <div class="opple_h2"><a href="opplef5.html"><img src="hinhanh/oppo-f5-6gb-a-2-400x460.png" width="80px" height="120"></a></div>
+                <div class="opple_h2"><a href="opple3_lite.html"><img src="hinhanh/f3_lite.png" width="80px" height="120"></a></div>
+                <div class="opple_h2"><a href="opplea83.html"><img src="hinhanh/OPPO-A83.jpg" width="80px" height="120"></a></div>
+      </div>
+            </br>
+            <div class="opple_vb">
+              <a href="opplef3.html"><div class="opple_vb1">Oppo F3 Plus</div></a>
+              <a href="opplef5.html"><div class="opple_vb2">Oppo F5</div></a>
+              <a href="opplef3_lite.html"><div class="opple_vb2">Oppo F3 Lite</div></a>
+              <a href="opplea83.html"><div class="opple_vb2">Oppo A83</div></a>
+            </div></br></br>
+            
+            <!-------phu kien---->
+           <b><div class="phukien"><font color="#000066" size="4"><a name="phukien" id="phukien"></a>PHỤ KIỆN</font></div></b>
+            </br>
+        <div class="khung_phukien">
+                <div class="phukien_h1"><a href="sonymdr.html"><img src="hinhanh/tai-nghe-sony-mdr-xb450ap-lqe (1).jpg" width="80px" height="120" /></a></div>
+                 <div class="phukien_h2"><a href="thenho.html"><img src="hinhanh/the-nho-microsd-16gb-class-10-7-300x300.jpg" width="80px" height="120" /></a></div>
+                 <div class="phukien_h2"><a href="tainghe.html"><img src="hinhanh/tai-nghe-sony-mdr-ex150ap-avatar-300x300.jpg" width="80px" height="120" /></a></div>
+                 <div class="phukien_h2"><a href="kinh.html"><img src="hinhanh/GalleryImageR_01.jpg" width="100px" height="120" /></a></div>
+      </div>
+        <br>
+            <div class="phukien_vb">
+                <a href="sonymdr.html"><div class="phukien_vb1">Sony mdr-450ap</div></a>
+                <a href="thenho.html"><div class="phukien_vb2">Thẻ nhớ 16GB</div></a>
+                 <a href="tainghe.html"><div class="phukien_vb2">Sony MDR-EX150AP</div></a>
+                 <a href="kinh.html"><div class="phukien_vb2">Samsung Gear Fit2 Pro</div></a>
+            </div></br>
+    </div></br>
+    
+    
+    
+<!---</div>--->
+    
+    
+    
+    <div class="lienhe">
+            <div class="khung_lienhe">
+            
+                   <div class="lienhe_vb"> <center>
+                           <b><p><h2>Liên Hệ</h2></p></b><br />
+                           <p>Trụ sở chính: Redmond, Washington, Hoa Kỳ</p>
+                           <p>Phone: 123456789           </p>
+                           <p>Email:anhhungxadieu@gmail.com            </p>
+                            <p>Facebook: Anh Hùng Xạ Điêu</p>
+                    </center></div>
+                   
+                   <div class="lienhe_vb"><center>
+                        <b><p><h2> Dịch Vụ</h2></p></b><br />
+                        <a href="http://www.samsung.com/vn/support/warranty/"><img src="hinhanh/danh-sach-cac-trung-tam-bao-hanh-cua-samsung.jpg" width="60" height="50" /></a>
+                        <a href="https://www.apple.com/legal/warranty/products/ios-warranty-rest-of-apac-vietnamese.html"><img src="hinhanh/trung-tam-bao-hanh-apple.jpg" width="60" height="50" /></a>
+                         <a href="http://ttbh.sony.com.vn/Home/SearchSupport"><img src="hinhanh/images (1).png" width="60" height="50" /></a>
+                         <a href="http://www.lg.com/vn/tro-giup/dich-vu-sua-chua/theo-doi-sua-chua-trung-tam"><img src="hinhanh/IMG_1117.PNG" width="60" height="50" /></a>
+                        
+                   </center></div>
+                   
+                   <div class="lienhe_vb"><center>
+                        <b><p><h2>Đối Tác</h2></p></b><br />
+                        <p>Điện máy đỏ</p>
+                        <p>Thới giới vận động</p>
+                        <p> Viên thông B</p>
+                    </center></div>
+                    
+                    
+                    <div class="lienhe_vb"><center>
+                        <b><p><h2>Chia Sẻ</h2></p></b><br />
+                        <img src="hinhanh/2000px-F_icon.svg.png" width="40" height="40" />
+                        <img src="hinhanh/Gmail-offline.png" width="40" height="40" />
+                        <img src="hinhanh/instagram-512.png" width="40" height="40" />
+                         <img src="hinhanh/636776202.png" width="40" height="40" />
+                        
+                    </center></div>
+                
+                
+    		</div>
+        
+	</div>
+</body>
+</html>

@@ -1,0 +1,1178 @@
+/* CSS Document */
+	*{
+		margin:0px;
+		padding: 0px;
+	}
+
+
+.clr{
+	clear:both;
+	}
+
+		#goTop 
+		{
+		bottom: 80px;
+		cursor: pointer;
+		display: none;
+		height: 35px;
+		position: fixed;
+		right: 50px;
+		width: 44px;
+		z-index: 1000;
+		}
+	
+	
+
+
+	.body
+	{
+		font-size:12px;
+		font-family:"Times New Roman", Times, serif;
+		
+	}
+
+	.main
+	{
+		width:1300px;
+		height:150px;
+		background:
+		url(../hinhanh/tho-luc-bat-mua-xuan.jpg) center;
+		margin: 0px auto;
+		}
+		
+	.search
+	{
+		width:350px;
+		height:80px;
+		float:right;
+		margin-top:15px;
+		
+		
+		}
+		.khung_d
+		{
+		width:150px;
+		height:50px;
+		float:left;
+		padding-top:15px;
+		padding-left:10px;
+		
+			}
+		.timkiem_d
+		{
+		width:100px;
+		height:20px;
+		float:right;
+		padding-top:15px;
+		padding-right:25px;
+			}
+		.ten
+	{
+		
+		padding-top:20px;
+		padding-left:20px;
+		float:left;
+		}
+		.top
+		{
+			width:1300px;
+			height:40px;
+			margin:0px auto;
+			background:#000;
+			
+			}
+		.samsung_d
+		{
+		width: 170px;
+		height: 30px;
+		float: left;
+		padding-top: 5px;
+		color:#00F;
+		border-right:#00F solid;
+		padding-left:50px;
+		border-right-width:1px;
+		font-size:20px;
+			
+			}
+		.apple_d
+		{
+			width:155px;
+			height:30px;
+			float:left;
+			padding-left:60px;
+			padding-top:5px;
+			border-right:#00F solid;
+			border-right-width:1px;
+			color: #00F;
+			font-size:20px;
+			
+			}
+		.lg_d
+		{
+			width:155px;
+			height:30px;
+			float:left;
+			padding-left:60px;
+			padding-top:5px;
+			border-right:#00F solid;
+			border-right-width:1px;
+			color: #00F;
+			font-size:20px;
+			
+			}
+		.opple_d
+		{
+			width:155px;
+			height:30px;
+			float:left;
+			padding-left:60px;
+			padding-top:5px;
+			border-right:#00F solid;
+			border-right-width:1px;
+			color: #00F;
+			font-size:20px;
+			}
+		.sony_d
+		{
+			width:155px;
+			height:30px;
+			float:left;
+			padding-left:60px;
+			padding-top:5px;
+			border-right:#00F solid;
+			border-right-width:1px;
+			color: #00F;
+			font-size:20px;
+			}
+		.phukien_d
+		{
+			width:155px;
+			height:30px;
+			float:left;
+			padding-top:5px;
+			padding-left:60px;
+			color: #00F;
+			font-size:20px;
+			}
+		#hot
+		{
+			width:1300px;
+			height:300px;
+			margin:0px auto;
+			position:relative;
+			border:2px solid #CCC;
+			
+		}
+		
+		.chayhinh
+		{
+			width:1300px;
+			height:300px;
+			
+		}
+		#prew
+		{
+			text-transform:uppercase;
+			left:10px;
+			top: 120px;
+			position:absolute;
+			text-decoration:none;
+			color:#000;
+		}
+		#next
+		{
+			text-transform:uppercase;
+			right:10px;
+			top: 120px;
+			text-decoration:none;
+			color:#000;
+			position:absolute;
+		}
+		.khung_body
+		{
+			width:1300px;
+			height:1500px;
+			margin:0px auto;
+			font-family:"Times New Roman", Times, serif;
+		}
+		.trungtam_trai
+		{
+			width:270px;
+			height:1500px;
+			float:left;
+		}
+		.khung_khuyenmai
+		{
+			width:270px;
+			height:410px;
+			background:#FFF;
+			
+		}
+		.khuyenmai_vb
+		{
+			float:left;
+		}
+		.sanpham_km
+		{
+			width:270px;
+			height:35px;
+			float:left;
+			border-bottom:#CCC solid;
+			border-bottom-width:1px;
+		}
+		.khungx
+		{
+			width:100px;
+			height:180px;
+			float:left;
+			margin-left:10px;
+		}
+		.chuthich_iphone
+		{
+			visibility:hidden;
+			width:60px;
+			height:20px;
+			background-color:#CCC;
+			padding-left:20px;
+			color:#F00;
+		}
+		.khungx:hover .chuthich_iphone
+		{
+			visibility:visible;
+		}
+		
+		.khuyenmai1
+		{
+			width:100px;
+			height:120px;
+			float:left;
+			margin:10px;
+		}
+		.khungnot8
+		{
+			width:100px;
+			height:180px;
+			float:left;
+		}
+		.chuthich_note8
+		{
+			visibility:hidden;
+			width:110px;
+			height:20px;
+			background-color:#CCC;
+			padding-left:20px;
+			color:#F00;
+		}
+		.khungnot8:hover .chuthich_note8
+		{
+			visibility:visible;
+		}
+		.khuyenmai2
+		{
+			width:100px;
+			height:120px;
+			float:left;
+			margin-left:30px;
+			margin-top:10px;
+		}
+		.khungf5
+		{
+			width:100px;
+			height:180px;
+			float:left;
+			margin-left:20px;
+		}
+		.chuthich_f5
+		{
+			visibility:hidden;
+			width:90px;
+			height:20px;
+			background-color:#CCC;
+			padding-left:20px;
+			color:#F00;
+		}
+		.khungf5:hover .chuthich_f5
+		{
+			visibility:visible;
+		}
+		.khuyenmai3
+		{
+			width:100px;
+			height:120px;
+			float:left;
+			margin:10px;
+		}
+		.khungc5
+		{
+			width:100px;
+			height:180px;
+			float:left;
+		}
+		.chuthich_c5
+		{
+			visibility:hidden;
+			width:110px;
+			height:20px;
+			background-color:#CCC;
+			padding-left:10px;
+			color:#F00;
+			margin-left:20px;
+		}
+		.khungc5:hover .chuthich_c5
+		{
+			visibility:visible;
+		}
+		.khuyenmai4
+		{
+			width:120px;
+			height:120px;
+			float:left;
+			margin:10px;
+		}
+	
+		
+		.khung_banchay
+		{
+			width:270px;
+			height:410px;
+			background:#FFF;
+			margin-top:10px;
+		}
+		.sanpham_bc
+		{
+			width:270px;
+			height:35px;
+			float:left;
+			border-bottom:#CCC solid;
+			border-bottom-width:1px;
+		}
+		.khung_nokia
+		{
+			width:100px;
+			height:180px;
+			float:left;
+			margin-left:15px;
+		}
+		.chuthich_nokia
+		{
+			visibility:hidden;
+			width:80px;
+			height:20px;
+			background-color:#CCC;
+			padding-left:10px;
+			color:#F00;
+			margin-left:20px;
+		}
+		.khung_nokia:hover .chuthich_nokia
+		{
+			visibility:visible;
+		}
+		.banchay1
+		{
+			width:120px;
+			height:120px;
+			float:left;
+			margin:10px;
+		}
+		.khung_vivo
+		{
+			width:100px;
+			height:180px;
+			float:left;
+			margin-left:15px;
+		}
+		.chuthich_vivo
+		{
+			visibility:hidden;
+			width:80px;
+			height:20px;
+			background-color:#CCC;
+			padding-left:10px;
+			color:#F00;
+			margin-left:20px;
+		}
+		.khung_vivo:hover .chuthich_vivo
+		{
+			visibility:visible;
+		}
+		.banchay2
+		{
+			width:120px;
+			height:120px;
+			float:left;
+			margin:10px;
+		}
+		
+		.khung_a8
+		{
+			width:100px;
+			height:180px;
+			float:left;
+			margin-left:20px;
+		}
+		.chuthich_a8
+		{
+			visibility:hidden;
+			width:100px;
+			height:35px;
+			background-color:#CCC;
+			padding-left:10px;
+			color:#F00;
+			margin-left:20px;
+		}
+		.khung_a8:hover .chuthich_a8
+		{
+			visibility:visible;
+		}
+		.banchay3
+		{
+			width:120px;
+			height:120px;
+			float:left;
+			
+		}
+		.khung_giatot
+		{
+			width:270px;
+			height:420px;
+			background:#FFF;
+			margin-top:10px;
+		}
+		.khung_j2
+		{
+			width:100px;
+			height:180px;
+			float:left;
+			margin-left:20px;
+		}
+		.chuthich_j2
+		{
+			visibility:hidden;
+			width:100px;
+			height:35px;
+			background-color:#CCC;
+			padding-left:5px;
+			color:#F00;
+			margin-left:10px;
+		}
+		.khung_j2:hover .chuthich_j2
+		{
+			visibility:visible;
+		}
+		.giatot
+		{
+			width:120px;
+			height:120px;
+			float:left;
+		}
+		.khung_a71
+		{
+			width:100px;
+			height:180px;
+			float:left;
+			margin-left:20px;
+		}
+		.chuthich_a71
+		{
+			visibility:hidden;
+			width:100px;
+			height:30px;
+			background-color:#CCC;
+			padding-left:5px;
+			color:#F00;
+			margin-left:10px;
+		}
+		.khung_a71:hover .chuthich_a71
+		{
+			visibility:visible;
+		}
+		.giatot1
+		{
+			width:120px;
+			height:120px;
+			float:left;
+		}
+		.khung_a5
+		{
+			width:100px;
+			height:180px;
+			float:left;
+			margin-left:20px;
+		}
+		.chuthich_a5
+		{
+			visibility:hidden;
+			width:100px;
+			height:35px;
+			background-color:#CCC;
+			padding-left:5px;
+			color:#F00;
+			margin-left:10px;
+		}
+		.khung_a5:hover .chuthich_a5
+		{
+			visibility:visible;
+		}
+		.giatot2
+		{
+			width:120px;
+			height:120px;
+			float:left;
+		}
+		.khung_i7
+		{
+			width:100px;
+			height:180px;
+			float:left;
+			margin-left:20px;
+		}
+		.chuthich_i7
+		{
+			visibility:hidden;
+			width:100px;
+			height:30px;
+			background-color:#CCC;
+			padding-left:5px;
+			color:#F00;
+			margin-left:10px;
+		}
+		.khung_i7:hover .chuthich_i7
+		{
+			visibility:visible;
+		}
+		.giatot3
+		{
+			width:120px;
+			height:120px;
+			float:left;
+		}
+	
+		.sanpham_gt
+		{
+			width:270px;
+			height:35px;
+			float:left;
+			border-bottom:#CCC solid;
+			border-bottom-width:1px;
+		}
+		
+		
+		.khung_ramat
+		{
+			width:270px;
+			height:230px;
+			background:#FFF;
+			margin-top:10px;
+		}
+		.sanpham_ramat
+		{
+			width:270px;
+			height:35px;
+			float:left;
+			border-bottom:#CCC solid;
+			border-bottom-width:1px;
+		}
+		.khung_s9
+		{
+			width:100px;
+			height:180px;
+			float:left;
+			margin-left:20px;
+		}
+		.chuthich_s9
+		{
+			visibility:hidden;
+			width:100px;
+			height:35px;
+			background-color:#CCC;
+			padding-left:5px;
+			color:#F00;
+			margin-left:10px;
+		}
+		.khung_s9:hover .chuthich_s9
+		{
+			visibility:visible;
+		}
+		
+		
+		
+		.trungtam_phai
+		{
+			width:270px;
+			height:1500px;
+			
+			float:right;
+			
+		}
+		.thoigian
+		{
+			background:#FFF;
+			width:270px;
+			height:80px;
+			
+		}
+		.dangnhap
+		{
+			background:#FFF;
+			width:270px;
+			height:350px;
+			margin-top:10px;
+			
+		}
+		.dangki_vb
+		{
+			width:200px;
+			height:30px;
+			margin: 0px auto;
+		}
+		.thanhvien
+		{
+			width:270px;
+			height:100px;
+			padding-top:100px;
+		}
+		.thongtin_kh
+		{
+			width:270px;
+			height:35px;
+			float:left;
+			border-bottom:#CCC solid;
+			border-bottom-width:1px;
+		}
+		.tintuc
+		{
+			background:#FFF;
+			width:270px;
+			height:430px;
+			margin-top:10px;
+		}
+		.tintuc_vb
+		{
+			background:#00F;
+			width:270px;
+			height:35px;
+			float:left;
+			color:#FFF;
+		}
+		.tintuc_chay
+		{
+			width:270px;
+			height:350px;
+			padding-left:2px;
+		}
+		.them
+		{
+			
+			background:#FFF;
+			width:270px;
+			height:300px;
+			margin-top:10px;
+			
+		}
+		.them_vb
+		{
+			width:270px;
+			height:35px;
+			float:left;
+			border-bottom:#CCC solid;
+			border-bottom-width:1px;
+			background:#FF0;
+		}
+		.khen1
+		{
+			width:100px;
+			height:100px;
+			float:left;
+			margin:10px;
+		}
+		.khen2
+		{
+			width:100px;
+			height:100px;
+			float:left;
+			margin:10px;
+		}
+		.khen3
+		{
+			width:100px;
+			height:100px;
+			float:left;
+			margin:10px;
+		}
+		.khen4
+		{
+			width:100px;
+			height:100px;
+			float:left;
+			margin:10px;
+		}
+		.quangcao
+		{
+			background:#FFF;
+			width:270px;
+			height:300px;
+			margin-top:10px;
+			border-width:2px;
+		}
+		.quangcao_vb
+		{
+			width:270px;
+			height:35px;
+			float:left;
+			border-bottom:#CCC solid;
+			border-bottom-width:1px;
+		}
+		.chinhsach
+		{
+			width:270px;
+			height:100px;
+			font-size:22px;
+		}
+		.trungtam
+		{
+		width:740px;
+		height:1500px;
+		margin:0px auto;
+		background:#FFF;
+		}
+		.duong_s
+		{
+			width:700px;
+			height:40px;
+			border-bottom:solid #CCC;
+			border-bottom-width:1px;
+			padding-top:14px;
+		}
+		.s8
+		{
+			width:720px;
+			height:40px;
+			float:left;
+			padding-top:10px;
+			}
+		.khung_s
+		{
+			width:700px;
+			height:150px;
+			float:left;
+			padding-top:4px;
+			}
+		.samsung_s
+		{
+			width:1000px;
+			height:40px;
+			margin:0px auto;
+			}
+		.samsung_h1
+		{
+			width:80px;
+			height:120px;
+			float:left;
+			padding-top:10px;
+			padding-left:30px;
+			}
+		.samsung_h2
+		{
+			width:80px;
+			height:120px;
+			padding-top:10px;
+			float:left;
+			padding-left:100px;
+			
+			}
+		.s8_1
+		{
+			width:100px;
+			height:30px;
+			float:left;
+			padding-left:40px;
+			}
+		.s8_note
+		{
+			width:100px;
+			height:30px;
+			float:left;
+			padding-left:80px;
+			
+		}
+		.samsung_h3
+		{
+			width:80px;
+			height:120px;
+			padding-top:10px;
+			float:left;
+			padding-left:120px;
+		}
+		.a5_2017
+		{
+			width:100px;
+			height:30px;
+			float:left;
+			padding-left:100px;
+		}
+		.samsung_h4
+		{
+			width:80px;
+			height:120px;
+			padding-top:10px;
+			float:left;
+			padding-left:120px;
+		}
+		.j7_pro
+		{
+			width:100px;
+			height:30px;
+			float:left;
+			padding-left:100px;
+		}
+		.apple
+		{
+			width:700px;
+			height:35px;
+			float:left;
+			padding-top:10px;
+			border-bottom:solid #CCC;
+			border-bottom-width:1px;
+			
+			
+		}
+		.khung_apple
+		{
+			width:700px;
+			height:150px;
+			float:left;
+			padding-top:20px;
+		}
+		.apple_h1
+		{
+			width:100px;
+			height:120px;
+			float:left;
+			padding-top:10px;
+			padding-left:30px;
+		}
+		.apple_h2
+		{
+			width:100px;
+			height:120px;
+			padding-top:10px;
+			float:left;
+			padding-left:80px;
+			margin-left:10px;
+		}
+		.apple_vb
+		{
+			width:720px;
+			height:40px;
+			float:left;
+			padding-top:10px;
+		}
+		.apple_vb1
+		{
+			width:80px;
+			height:30px;
+			float:left;
+			padding-left:30px;
+		}
+		.apple_vb2
+		{
+			width:80px;
+			height:30px;
+			float:left;
+			padding-left:50px;
+			margin-left:70px;
+		}
+		.apple_vb3
+		{
+			width:80px;
+			height:30px;
+			float:left;
+			padding-left:50px;
+			margin-left:50px;
+		}
+		.lg
+		{
+			width:500px;
+			height:35px;
+			padding-left:5px;
+			border-bottom:solid #CCC;
+			border-bottom-width:1px;
+			float:left;
+		}
+		.khung_lg
+		{
+			width:700px;
+			height:140px;
+			float:left;
+			padding-top:10px;
+			padding-left:10px;
+		}
+		.lg_h1
+		{
+			width:100px;
+			height:120px;
+			float:left;
+			padding-top:10px;
+			padding-left:30px;
+		}
+		.lg_h2
+		{
+			width:100px;
+			height:120px;
+			float:left;
+			padding-top:20px;
+			margin-left:87px;
+		}
+		.lg_vb
+		{
+			width:700px;
+			height:40px;
+			float:left;
+			padding-top:10px;
+		}
+		.lg_vb1
+		{
+			width:80px;
+			height:30px;
+			float:left;
+			padding-left:50px;
+		}
+		.lg_vb2
+		{
+			width:80px;
+			height:30px;
+			float:left;
+			padding-left:50px;
+			margin-left:60px;
+		}
+		
+		
+		.sony
+		{
+			width:700px;
+			height:35px;
+			float:left;
+			padding-left:5px;
+			border-bottom:solid #CCC;
+			border-bottom-width:1px;
+			
+			
+		}
+		.khung_sony
+		{
+			width:720px;
+			height:140px;
+			float:left;
+			padding-top:10px;
+			padding-left:10px;
+		}
+		.sony_vb
+		{
+			width:720px;
+			height:40px;
+			padding-top:10px;
+			float:left;
+		}
+		.sony_vb1
+		{
+			width:100px;
+			height:30px;
+			float:left;
+			padding-left:40px;
+		}
+		.sony_h1
+		{
+			width:100px;
+			height:120px;
+			float:left;
+			padding-top:10px;
+			padding-left:30px;
+		}
+		.sony_h2
+		{
+			width:100px;
+			height:120px;
+			padding-top:10px;
+			float:left;
+			padding-left:50px;
+			margin-left:20px;
+		}
+		.sony_vb2
+		{
+			width:100px;
+			height:30px;
+			float:left;
+			padding-left:50px;
+			margin-left:20px;
+		}
+		.sony_h3
+		{
+			width:100px;
+			height:120px;
+			padding-top:10px;
+			float:left;
+			padding-left:50px;
+			margin-left:60px;
+		}
+		.sony_h4
+		{
+			width:100px;
+			height:120px;
+			padding-top:10px;
+			float:left;
+			padding-left:30px;
+			margin-left:60px;
+		}
+		.sony_vb3
+		{
+			width:120px;
+			height:30px;
+			float:left;
+			padding-left:50px;
+			margin-left:60px;
+		}
+		.opple
+		{
+			width:700px;
+			height:35px;
+			float:left;
+			padding-left:10px;
+			border-bottom:solid #CCC;
+			border-bottom-width:1px;
+		}
+		.opple_vb
+		{
+			width:720px;
+			height:40px;
+			padding-top:10px;
+			float:left;
+			
+		}
+		.khung_opple
+		{
+			width:700px;
+			height:140px;
+			float:left;
+			padding-top:20px;
+			padding-left:10px;
+		}
+		.opple_h1
+		{
+			width:100px;
+			height:120px;
+			float:left;
+			padding-top:10px;
+			padding-left:30px;
+		}
+		.opple_vb1
+		{
+			width:100px;
+			height:30px;
+			float:left;
+			padding-left:40px;
+			
+		}
+		.opple_h2
+		{
+			width:100px;
+			height:120px;
+			padding-top:10px;
+			float:left;
+			padding-left:50px;
+			margin-left:40px;
+		}
+		.opple_vb2
+		{
+			width:100px;
+			height:30px;
+			float:left;
+			padding-left:50px;
+			margin-left:40px;
+		}
+		.phukien
+		{
+			width:700px;
+			height:35px;
+			float:left;
+			padding-left:10px;
+			border-bottom:solid #CCC;
+			border-bottom-width:1px;
+		}
+		.khung_phukien
+		{
+			width:720px;
+			height:140px;
+			float:left;
+			padding-left:10px;
+		}
+		.phukien_h1
+		{
+			width:100px;
+			height:130px;
+			float:left;
+			padding-top:10px;
+			padding-left:30px;
+		}
+		.phukien_h2
+		{
+			width:110px;
+			height:130px;
+			float:left;
+			padding-top:10px;
+			padding-left:20px;
+			margin-left:60px;
+		}
+		.phukien_vb
+		{
+			width:720px;
+			height:40px;
+			float:left;
+		}
+		.phukien_vb1
+		{
+			width:120px;
+			height:30px;
+			float:left;
+			padding-left:20px;
+			padding-top:10px;
+			
+		}
+		.phukien_vb2
+		{
+			width:120px;
+			height:30px;
+			float:left;
+			padding-left:20px;
+			padding-top:10px;
+			margin-left:52px;
+		}
+		.lienhe
+		{
+		width:1300px;
+		height:160px;
+		background:#FFF;
+		margin: 0px auto;
+		padding-top:5px;
+		border-bottom:solid #00F;
+		}
+		.khung_lienhe
+		{
+			width:1300px;
+			height:150px;
+			padding-top:20px;
+			margin:0px auto;
+		}
+		.lienhe_vb
+		{
+			width:300px;
+			height:100px;
+			float:left;
+			padding-top:10px;
+			margin-left:20px;
+			
+		}
+		
+		
+		
+		
+		

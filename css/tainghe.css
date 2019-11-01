@@ -1,0 +1,249 @@
+/* CSS Document */
+
+*{
+		margin:0px;
+		padding: 0px;
+	}
+.clr{
+	clear:both;
+	}
+	.body
+	{
+		background:url(../hinhanh/tho-luc-bat-mua-xuan.jpg) center top no-repeat;
+		font-size:12px;
+		font-family:Arial, Helvetica, sans-serif;
+		
+		}
+	.main
+	{
+		width:1000px;
+		height:100px;
+		background:url(../hinhanh/tho-luc-bat-mua-xuan.jpg) center no-repeat;
+		margin: 0px auto;
+		}
+		
+	.search
+	{
+		width:350px;
+		height:80px;
+		float:right;
+		margin-top:15px;
+		padding-top:10px;
+		
+		
+		}
+		.khung_d
+		{
+		width:1px;
+		height:50px;
+		float:left;
+		padding-top:10px;
+		padding-right:200px;
+		
+			}
+		.timkiem_d
+		{
+		width:140px;
+		height:20px;
+		float:right;
+		padding-top:12px;
+			}
+		.ten
+	{
+		
+		padding-top:20px;
+		padding-left:20px;
+		float:left;
+		font-size:25px;
+		}
+		.top
+		{
+			width:1000px;
+			height:30px;
+			margin:0px auto;
+			background:#000 center no-repeat;
+			
+			}
+		.samsung_d
+		{
+		width: 110px;
+		height: 30px;
+		float: left;
+		padding-top: 5px;
+		color: #FF0;
+			
+			}
+		.apple_d
+		{
+			width:110px;
+			height:30px;
+			float:left;
+			padding-left:60px;
+			padding-top:5px;
+			
+			}
+		.lg_d
+		{
+			width:110px;
+			height:30px;
+			float:left;
+			padding-left:60px;
+			padding-top:5px;
+			
+			}
+		.opple_d
+		{
+			width:110px;
+			height:30px;
+			float:left;
+			padding-left:60px;
+			padding-top:5px;
+			}
+		.sony_d
+		{
+			width:110px;
+			height:30px;
+			float:left;
+			padding-left:60px;
+			padding-top:5px;
+			}
+		.phukien_d
+		{
+			width:110px;
+			height:30px;
+			float:left;
+			padding-top:5px;
+			padding-left:60px;
+			
+			}
+		.khung_c
+		{
+			width:1000px;
+			height:1870px;
+			
+			margin:0px auto;
+			
+			}
+		.khungs8
+		{
+			background:#FFF center no-repeat;
+			width:1000px;
+			height:400px;
+			margin:0px auto;
+		}
+		.zoom {
+		display:inline-block;
+		position: relative;
+		}
+		.zoom img {
+		display: block;
+		}
+		.zoom img::selection { background-color: transparent; }
+		.thongtin
+		{
+			background:#FFF center no-repeat;
+			width:1000px;
+			height:60px;
+			text-align:center;
+			padding-top:20px;
+			font-size:24px;
+		}
+		.gioithieu
+		{
+			background:#FFF center no-repeat;
+			width:550px;
+			height:1350px;
+			float:left;
+			border-bottom:solid #00F;
+			
+			}
+		.cauhinh
+		{
+			background:#FFF center no-repeat;
+			width:430px;
+			height:450px;
+			float:right;
+			margin-right:5px;
+			padding-left:2px;
+			border-bottom:solid #00F;
+		}
+		
+		.gia
+		{
+			width:250px;
+			height:250px;
+			float:right;
+			margin-top:50px;
+			margin-right:100px;
+			}
+		.s8_h1
+		{
+			width:250px;
+			height:350px;
+			float:left;
+			padding-left:50px;
+			padding-top:10px;
+		}
+		.khung_video
+		{
+			background:#FFF center no-repeat;
+			width:430px;
+			height:450px;
+			float:right;
+			margin-top:20px;
+			margin-right:5px;
+			padding-left:2px;
+			border-bottom:solid #00F;
+		}
+		.sanphamkhac
+		{
+			background:#FFF center no-repeat;
+			width:430px;
+			height:405px;
+			float:right;
+			margin-top:20px;
+			margin-right:5px;
+			padding-left:2px;
+			border-bottom:solid #00F;
+		}
+		.lienhe
+		{
+		width:1000px;
+		height:160px;
+		background:#FFF center no-repeat;
+		margin: 0px auto;
+		padding-top:5px;
+		border-bottom:solid #00F;
+		}
+		.khung_lienhe
+		{
+			width:1000px;
+			height:150px;
+			float:left;
+			padding-top:20px;
+			border-top-width:5px;
+			border-top:#F00;
+		}
+		.lienhe_vb
+		{
+			width:300px;
+			height:100px;
+			float:left;
+			padding-top:10px;
+			
+		}
+		.lienhe_vb2
+		{
+			width:400px;
+			height:100px;
+			padding-top:10px;
+			float:left;
+			
+		}
+		.lienhe_vb3
+		{
+			width:300px;
+			height:100px;
+			float:left;
+			padding-top:10px;
+		}
